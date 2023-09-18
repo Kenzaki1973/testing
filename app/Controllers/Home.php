@@ -11,6 +11,6 @@ class Home extends BaseController
 
     public function Kenzaki1973()
     {
-        echo 'Hello Kenzaki1973';
+        echo 'Hello Ken!';
     }
 }

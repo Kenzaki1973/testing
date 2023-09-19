@@ -13,19 +13,20 @@
 
     <style>
         body {
-            background-color: #f0f0f0; /* Light gray background */
+            background-color: #f5f5f5; /* Light gray background */
             font-family: Arial, sans-serif;
         }
 
         /* Header styles */
         .header {
-            background-color: #333; /* Dark gray header background */
+            background-color: #ff6600; /* Shopee orange */
             color: #fff; /* White font color */
             text-align: center;
             padding: 20px;
         }
         .header h1 {
             font-size: 36px; /* Larger font size for the header */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a sans-serif font */
         }
 
         /* Form styles */
@@ -39,13 +40,14 @@
             color: #333; /* Dark gray form label color */
         }
         .form-control {
-            background-color: #f0f0f0; /* Light gray input field background */
+            background-color: #f5f5f5; /* Light gray input field background */
             color: #333; /* Dark gray input field text color */
             border-color: #ccc; /* Light gray input field border */
         }
         .btn-primary {
-            background-color: #007bff; /* Blue button background */
-            border-color: #007bff; /* Blue button border */
+            background-color: #ff6600; /* Shopee orange */
+            border-color: #ff6600; /* Shopee orange border */
+            color: #fff; /* White font color for the button */
         }
 
         /* Table styles */
@@ -55,12 +57,14 @@
             border: 1px solid #ccc; /* Light gray table border */
         }
         .table th {
-            background-color: #007bff; /* Blue table header background */
+            background-color: #ff6600; /* Shopee orange for table header */
             color: #fff; /* White table header text color */
         }
 
         /* Button styles */
         .btn-danger, .btn-warning {
+            background-color: #ff6600; /* Shopee orange for danger and warning buttons */
+            border-color: #ff6600; /* Shopee orange border */
             color: #fff; /* White font color for buttons */
         }
 
